@@ -105,15 +105,19 @@ hr {
 }
 
 /** header **/
-
+.flex-container {
+  display: flex;
+  align-items: center;
+  /* background-color: rgb(138, 140, 143); */
+}
 .hero {
   padding: 2rem;
   padding-top: 5rem;
 }
 
 .hero .hero-img {
-  max-width: 80%;
-  width: 550px;
+  max-width: 60%;
+  width: 300px;
   display: block;
   margin: auto;
 }
